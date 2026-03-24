@@ -26,10 +26,10 @@ import (
 	"testing"
 	"testing/fstest"
 
-	"github.com/go-gremlins/gremlins/internal/configuration"
-	"github.com/go-gremlins/gremlins/internal/engine/workerpool"
-	"github.com/go-gremlins/gremlins/internal/gomodule"
-	"github.com/go-gremlins/gremlins/internal/mutator"
+	"github.com/tasaankaeris/gremlins/internal/configuration"
+	"github.com/tasaankaeris/gremlins/internal/engine/workerpool"
+	"github.com/tasaankaeris/gremlins/internal/gomodule"
+	"github.com/tasaankaeris/gremlins/internal/mutator"
 )
 
 var viperMutex sync.RWMutex

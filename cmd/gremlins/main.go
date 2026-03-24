@@ -28,9 +28,9 @@ import (
 
 	"github.com/fatih/color"
 
-	"github.com/go-gremlins/gremlins/cmd"
-	"github.com/go-gremlins/gremlins/internal/execution"
-	"github.com/go-gremlins/gremlins/internal/log"
+	"github.com/tasaankaeris/gremlins/cmd"
+	"github.com/tasaankaeris/gremlins/internal/execution"
+	"github.com/tasaankaeris/gremlins/internal/log"
 )
 
 var version = "dev"

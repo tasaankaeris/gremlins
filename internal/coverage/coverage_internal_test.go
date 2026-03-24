@@ -5,7 +5,7 @@ import (
 
 	"golang.org/x/tools/cover"
 
-	"github.com/go-gremlins/gremlins/internal/gomodule"
+	"github.com/tasaankaeris/gremlins/internal/gomodule"
 )
 
 func TestRemoveModuleFromPathNormalizesSeparators(t *testing.T) {

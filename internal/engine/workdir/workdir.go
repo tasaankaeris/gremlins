@@ -24,7 +24,7 @@ import (
 	"path/filepath"
 	"sync"
 
-	"github.com/go-gremlins/gremlins/internal/log"
+	"github.com/tasaankaeris/gremlins/internal/log"
 )
 
 // Dealer is the responsible for creating and returning the reference

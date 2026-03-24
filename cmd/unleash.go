@@ -27,18 +27,18 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 
-	"github.com/go-gremlins/gremlins/internal/coverage"
-	"github.com/go-gremlins/gremlins/internal/diff"
-	"github.com/go-gremlins/gremlins/internal/engine"
-	"github.com/go-gremlins/gremlins/internal/engine/workdir"
-	"github.com/go-gremlins/gremlins/internal/exclusion"
-	"github.com/go-gremlins/gremlins/internal/log"
-	"github.com/go-gremlins/gremlins/internal/mutator"
-	"github.com/go-gremlins/gremlins/internal/report"
+	"github.com/tasaankaeris/gremlins/internal/coverage"
+	"github.com/tasaankaeris/gremlins/internal/diff"
+	"github.com/tasaankaeris/gremlins/internal/engine"
+	"github.com/tasaankaeris/gremlins/internal/engine/workdir"
+	"github.com/tasaankaeris/gremlins/internal/exclusion"
+	"github.com/tasaankaeris/gremlins/internal/log"
+	"github.com/tasaankaeris/gremlins/internal/mutator"
+	"github.com/tasaankaeris/gremlins/internal/report"
 
-	"github.com/go-gremlins/gremlins/cmd/internal/flags"
-	"github.com/go-gremlins/gremlins/internal/configuration"
-	"github.com/go-gremlins/gremlins/internal/gomodule"
+	"github.com/tasaankaeris/gremlins/cmd/internal/flags"
+	"github.com/tasaankaeris/gremlins/internal/configuration"
+	"github.com/tasaankaeris/gremlins/internal/gomodule"
 )
 
 type unleashCmd struct {

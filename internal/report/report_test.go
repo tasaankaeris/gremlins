@@ -32,13 +32,13 @@ import (
 	"github.com/hectane/go-acl"
 	"github.com/spf13/viper"
 
-	"github.com/go-gremlins/gremlins/internal/log"
-	"github.com/go-gremlins/gremlins/internal/mutator"
-	"github.com/go-gremlins/gremlins/internal/report"
-	"github.com/go-gremlins/gremlins/internal/report/internal"
+	"github.com/tasaankaeris/gremlins/internal/log"
+	"github.com/tasaankaeris/gremlins/internal/mutator"
+	"github.com/tasaankaeris/gremlins/internal/report"
+	"github.com/tasaankaeris/gremlins/internal/report/internal"
 
-	"github.com/go-gremlins/gremlins/internal/configuration"
-	"github.com/go-gremlins/gremlins/internal/execution"
+	"github.com/tasaankaeris/gremlins/internal/configuration"
+	"github.com/tasaankaeris/gremlins/internal/execution"
 )
 
 var fakePosition = newPosition("aFolder/aFile.go", 3, 12)
